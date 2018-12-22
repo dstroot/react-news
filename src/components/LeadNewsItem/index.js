@@ -30,7 +30,6 @@ const NewsItem = ({ item }) => (
         </div>
       </div>
     </a>
-    <hr />
   </>
 );
 
