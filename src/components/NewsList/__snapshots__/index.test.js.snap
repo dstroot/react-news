@@ -1,0 +1,741 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`NewsList it should render 1`] = `
+Array [
+  <a
+    className="news-link"
+    href="/news/article"
+  >
+    <div
+      className="media"
+    >
+      <img
+        alt="Generic placeholder"
+        className="mr-3 d-none d-sm-block"
+        height="115px"
+        src="/media/wildfire.jpg"
+        width="175px"
+      />
+      <div
+        className="media-body"
+      >
+        <p
+          className="mt-0 text-muted"
+        >
+          11-14-18
+           / 
+          <strong>
+            Company News
+          </strong>
+        </p>
+        <h3
+          className="news-link font-weight-light"
+        >
+          Pacific Life Foundation Donates $250,000 to the American Red Cross for Victims of the California Wildfires
+        </h3>
+      </div>
+    </div>
+  </a>,
+  <hr />,
+  <a
+    className="news-link"
+    href="https://www.pacificlife.com/press-releases/pacific-life-foundation-grants-scholarships-to-students-who-have.html"
+  >
+    <div
+      className="media"
+    >
+      <img
+        alt="Generic placeholder"
+        className="mr-3 d-none d-sm-block"
+        height="115px"
+        src="/media/students.jpg"
+        width="175px"
+      />
+      <div
+        className="media-body"
+      >
+        <p
+          className="mt-0 text-muted"
+        >
+          10-01-18
+           / 
+          <strong>
+            Company News
+          </strong>
+        </p>
+        <h3
+          className="news-link font-weight-light"
+        >
+          Pacific Life Foundation Grants Scholarships to Students Who Have Lost Parents Without Life Insurance
+        </h3>
+      </div>
+    </div>
+  </a>,
+  <hr />,
+  <a
+    className="news-link"
+    href="https://www.pacificlife.com/press-releases/pacific-life-honored-with-16-business-marketing-awards.html"
+  >
+    <div
+      className="media"
+    >
+      <img
+        alt="Generic placeholder"
+        className="mr-3 d-none d-sm-block"
+        height="115px"
+        src="/media/awards.jpg"
+        width="175px"
+      />
+      <div
+        className="media-body"
+      >
+        <p
+          className="mt-0 text-muted"
+        >
+          09-05-18
+           / 
+          <strong>
+            Company News
+          </strong>
+        </p>
+        <h3
+          className="news-link font-weight-light"
+        >
+          Pacific Life Honored with 16 Business Marketing Awards
+        </h3>
+      </div>
+    </div>
+  </a>,
+  <hr />,
+  <a
+    className="news-link"
+    href=""
+  >
+    <div
+      className="media"
+    >
+      <img
+        alt="Generic placeholder"
+        className="mr-3 d-none d-sm-block"
+        height="115px"
+        src="/media/benefits.jpg"
+        width="175px"
+      />
+      <div
+        className="media-body"
+      >
+        <p
+          className="mt-0 text-muted"
+        >
+          08-27-18
+           / 
+          <strong>
+            Company News
+          </strong>
+        </p>
+        <h3
+          className="news-link font-weight-light"
+        >
+          Pacific Life Insurance Company Offers New Specialized Service for Death Claim Beneficiaries
+        </h3>
+      </div>
+    </div>
+  </a>,
+  <hr />,
+  <a
+    className="news-link"
+    href=""
+  >
+    <div
+      className="media"
+    >
+      <img
+        alt="Generic placeholder"
+        className="mr-3 d-none d-sm-block"
+        height="115px"
+        src="/media/celentano.jpg"
+        width="175px"
+      />
+      <div
+        className="media-body"
+      >
+        <p
+          className="mt-0 text-muted"
+        >
+          08-23-18
+           / 
+          <strong>
+            Company News
+          </strong>
+        </p>
+        <h3
+          className="news-link font-weight-light"
+        >
+          Pacific Life Announces New Head of Retirement Solutions Division
+        </h3>
+      </div>
+    </div>
+  </a>,
+  <hr />,
+  <a
+    className="news-link"
+    href=""
+  >
+    <div
+      className="media"
+    >
+      <img
+        alt="Generic placeholder"
+        className="mr-3 d-none d-sm-block"
+        height="115px"
+        src="/media/alerts.jpg"
+        width="175px"
+      />
+      <div
+        className="media-body"
+      >
+        <p
+          className="mt-0 text-muted"
+        >
+          08-20-18
+           / 
+          <strong>
+            Company News
+          </strong>
+        </p>
+        <h3
+          className="news-link font-weight-light"
+        >
+          Pacific Life Insurance Company Launches Real-Time Activity Alerts for Financial Professionals
+        </h3>
+      </div>
+    </div>
+  </a>,
+  <hr />,
+  <a
+    className="news-link"
+    href=""
+  >
+    <div
+      className="media"
+    >
+      <img
+        alt="Generic placeholder"
+        className="mr-3 d-none d-sm-block"
+        height="115px"
+        src="logo.png"
+        width="175px"
+      />
+      <div
+        className="media-body"
+      >
+        <p
+          className="mt-0 text-muted"
+        >
+          07-31-18
+           / 
+          <strong>
+            Company News
+          </strong>
+        </p>
+        <h3
+          className="news-link font-weight-light"
+        >
+          Pacific Life Launches Transformed Website for Consumers
+        </h3>
+      </div>
+    </div>
+  </a>,
+  <hr />,
+  <a
+    className="news-link"
+    href=""
+  >
+    <div
+      className="media"
+    >
+      <img
+        alt="Generic placeholder"
+        className="mr-3 d-none d-sm-block"
+        height="115px"
+        src="logo.png"
+        width="175px"
+      />
+      <div
+        className="media-body"
+      >
+        <p
+          className="mt-0 text-muted"
+        >
+          06-12-18
+           / 
+          <strong>
+            Company News
+          </strong>
+        </p>
+        <h3
+          className="news-link font-weight-light"
+        >
+          As Part of Its Digital Transformation, Pacific Life Reintroduces Annuities Website for Financial Professionals
+        </h3>
+      </div>
+    </div>
+  </a>,
+  <hr />,
+  <a
+    className="news-link"
+    href=""
+  >
+    <div
+      className="media"
+    >
+      <img
+        alt="Generic placeholder"
+        className="mr-3 d-none d-sm-block"
+        height="115px"
+        src="logo.png"
+        width="175px"
+      />
+      <div
+        className="media-body"
+      >
+        <p
+          className="mt-0 text-muted"
+        >
+          05-01-18
+           / 
+          <strong>
+            Company News
+          </strong>
+        </p>
+        <h3
+          className="news-link font-weight-light"
+        >
+          Pacific Life Introduces New Variable Annuity Rider Providing 7% Annual Credit for up to Five Years
+        </h3>
+      </div>
+    </div>
+  </a>,
+  <hr />,
+  <a
+    className="news-link"
+    href=""
+  >
+    <div
+      className="media"
+    >
+      <img
+        alt="Generic placeholder"
+        className="mr-3 d-none d-sm-block"
+        height="115px"
+        src="logo.png"
+        width="175px"
+      />
+      <div
+        className="media-body"
+      >
+        <p
+          className="mt-0 text-muted"
+        >
+          04-18-18
+           / 
+          <strong>
+            Company News
+          </strong>
+        </p>
+        <h3
+          className="news-link font-weight-light"
+        >
+          Pacific Life Ranked #1 Seller of Indexed Universal Life Insurance with $1.6 Billion of Target Premium Sold in 19 Years
+        </h3>
+      </div>
+    </div>
+  </a>,
+  <hr />,
+  <a
+    className="news-link"
+    href=""
+  >
+    <div
+      className="media"
+    >
+      <img
+        alt="Generic placeholder"
+        className="mr-3 d-none d-sm-block"
+        height="115px"
+        src="logo.png"
+        width="175px"
+      />
+      <div
+        className="media-body"
+      >
+        <p
+          className="mt-0 text-muted"
+        >
+          04-02-18
+           / 
+          <strong>
+            Company News
+          </strong>
+        </p>
+        <h3
+          className="news-link font-weight-light"
+        >
+          New Pacific Life White Paper Answers the Question, “Why Purchase a Deferred Fixed Annuity in a Rising Interest-Rate Environment?”
+        </h3>
+      </div>
+    </div>
+  </a>,
+  <hr />,
+  <a
+    className="news-link"
+    href=""
+  >
+    <div
+      className="media"
+    >
+      <img
+        alt="Generic placeholder"
+        className="mr-3 d-none d-sm-block"
+        height="115px"
+        src="logo.png"
+        width="175px"
+      />
+      <div
+        className="media-body"
+      >
+        <p
+          className="mt-0 text-muted"
+        >
+          03-27-18
+           / 
+          <strong>
+            Company News
+          </strong>
+        </p>
+        <h3
+          className="news-link font-weight-light"
+        >
+          Pacific Life Announces Assistant Vice President Promotions
+        </h3>
+      </div>
+    </div>
+  </a>,
+  <hr />,
+  <a
+    className="news-link"
+    href=""
+  >
+    <div
+      className="media"
+    >
+      <img
+        alt="Generic placeholder"
+        className="mr-3 d-none d-sm-block"
+        height="115px"
+        src="logo.png"
+        width="175px"
+      />
+      <div
+        className="media-body"
+      >
+        <p
+          className="mt-0 text-muted"
+        >
+          03-27-18
+           / 
+          <strong>
+            Company News
+          </strong>
+        </p>
+        <h3
+          className="news-link font-weight-light"
+        >
+          Pacific Life Announces Senior Vice President and Vice President Promotions
+        </h3>
+      </div>
+    </div>
+  </a>,
+  <hr />,
+  <a
+    className="news-link"
+    href=""
+  >
+    <div
+      className="media"
+    >
+      <img
+        alt="Generic placeholder"
+        className="mr-3 d-none d-sm-block"
+        height="115px"
+        src="logo.png"
+        width="175px"
+      />
+      <div
+        className="media-body"
+      >
+        <p
+          className="mt-0 text-muted"
+        >
+          02-20-18
+           / 
+          <strong>
+            Company News
+          </strong>
+        </p>
+        <h3
+          className="news-link font-weight-light"
+        >
+          Pacific Life Introduces New Indexed Universal Life Insurance Product
+        </h3>
+      </div>
+    </div>
+  </a>,
+  <hr />,
+  <a
+    className="news-link"
+    href=""
+  >
+    <div
+      className="media"
+    >
+      <img
+        alt="Generic placeholder"
+        className="mr-3 d-none d-sm-block"
+        height="115px"
+        src="logo.png"
+        width="175px"
+      />
+      <div
+        className="media-body"
+      >
+        <p
+          className="mt-0 text-muted"
+        >
+          02-12-18
+           / 
+          <strong>
+            Company News
+          </strong>
+        </p>
+        <h3
+          className="news-link font-weight-light"
+        >
+          Pacific Life Named One of the 2018 World’s Most Ethical Companies
+        </h3>
+      </div>
+    </div>
+  </a>,
+  <hr />,
+  <a
+    className="news-link"
+    href=""
+  >
+    <div
+      className="media"
+    >
+      <img
+        alt="Generic placeholder"
+        className="mr-3 d-none d-sm-block"
+        height="115px"
+        src="logo.png"
+        width="175px"
+      />
+      <div
+        className="media-body"
+      >
+        <p
+          className="mt-0 text-muted"
+        >
+          01-29-18
+           / 
+          <strong>
+            Company News
+          </strong>
+        </p>
+        <h3
+          className="news-link font-weight-light"
+        >
+          Pacific Life Foundation Awards $334,000 to Nonprofits and K-12 Schools in Omaha, Nebraska
+        </h3>
+      </div>
+    </div>
+  </a>,
+  <hr />,
+  <a
+    className="news-link"
+    href=""
+  >
+    <div
+      className="media"
+    >
+      <img
+        alt="Generic placeholder"
+        className="mr-3 d-none d-sm-block"
+        height="115px"
+        src="logo.png"
+        width="175px"
+      />
+      <div
+        className="media-body"
+      >
+        <p
+          className="mt-0 text-muted"
+        >
+          01-29-18
+           / 
+          <strong>
+            Company News
+          </strong>
+        </p>
+        <h3
+          className="news-link font-weight-light"
+        >
+          Pacific Life Foundation Awards $180,500 to Nonprofits and K-12 Schools in Lynchburg, Virginia
+        </h3>
+      </div>
+    </div>
+  </a>,
+  <hr />,
+  <a
+    className="news-link"
+    href=""
+  >
+    <div
+      className="media"
+    >
+      <img
+        alt="Generic placeholder"
+        className="mr-3 d-none d-sm-block"
+        height="115px"
+        src="logo.png"
+        width="175px"
+      />
+      <div
+        className="media-body"
+      >
+        <p
+          className="mt-0 text-muted"
+        >
+          01-29-18
+           / 
+          <strong>
+            Company News
+          </strong>
+        </p>
+        <h3
+          className="news-link font-weight-light"
+        >
+          Pacific Life Foundation Announces $7 Million Giving Program for 2018
+        </h3>
+      </div>
+    </div>
+  </a>,
+  <hr />,
+  <a
+    className="news-link"
+    href=""
+  >
+    <div
+      className="media"
+    >
+      <img
+        alt="Generic placeholder"
+        className="mr-3 d-none d-sm-block"
+        height="115px"
+        src="logo.png"
+        width="175px"
+      />
+      <div
+        className="media-body"
+      >
+        <p
+          className="mt-0 text-muted"
+        >
+          01-11-18
+           / 
+          <strong>
+            Company News
+          </strong>
+        </p>
+        <h3
+          className="news-link font-weight-light"
+        >
+          Pacific Life Re-Brands Asset Management Organization as Pacific Global Asset Management
+        </h3>
+      </div>
+    </div>
+  </a>,
+  <hr />,
+  <a
+    className="news-link"
+    href=""
+  >
+    <div
+      className="media"
+    >
+      <img
+        alt="Generic placeholder"
+        className="mr-3 d-none d-sm-block"
+        height="115px"
+        src="logo.png"
+        width="175px"
+      />
+      <div
+        className="media-body"
+      >
+        <p
+          className="mt-0 text-muted"
+        >
+          01-11-18
+           / 
+          <strong>
+            Company News
+          </strong>
+        </p>
+        <h3
+          className="news-link font-weight-light"
+        >
+          Pacific FundsSM U.S. Equity Funds Celebrates Three-Year Anniversary and Receives First Morningstar Ratings
+        </h3>
+      </div>
+    </div>
+  </a>,
+  <hr />,
+  <a
+    className="news-link"
+    href=""
+  >
+    <div
+      className="media"
+    >
+      <img
+        alt="Generic placeholder"
+        className="mr-3 d-none d-sm-block"
+        height="115px"
+        src="logo.png"
+        width="175px"
+      />
+      <div
+        className="media-body"
+      >
+        <p
+          className="mt-0 text-muted"
+        >
+          01-02-18
+           / 
+          <strong>
+            Company News
+          </strong>
+        </p>
+        <h3
+          className="news-link font-weight-light"
+        >
+          Pacific Life Celebrates 150 Years of Service to Its Policyholders
+        </h3>
+      </div>
+    </div>
+  </a>,
+  <hr />,
+]
+`;
