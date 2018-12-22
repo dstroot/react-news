@@ -4,6 +4,10 @@ import React from "react";
 // import NewsList from "../components/NewsList";
 import data from "../../components/NewsList/news.json";
 import NewsItem from "../../components/NewsItem";
+import LeadNewsItem from "../../components/LeadNewsItem";
+
+// https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/shift
+let firstItem = data.shift();
 
 const Tabs = () => (
   <ul className="nav nav-tabs nav-fill mb-4">
@@ -52,6 +56,7 @@ const PageHome = () => {
       <div className="row">
         <div className="col">
           <Tabs />
+          <LeadNewsItem item={firstItem} />
           {/*<h1 className="display-6 mb-4">All Stories</h1>
           <hr />*/}
           {data.map((item, index) => (
