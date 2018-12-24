@@ -97,7 +97,7 @@ exports[`NewsArticle it should render 1`] = `
         className="btn btn-large btn-secondary mb-5"
         href="/news"
       >
-        Latest Articles
+        Back to Latest Articles
       </a>
     </div>
   </div>

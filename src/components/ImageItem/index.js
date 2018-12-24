@@ -4,7 +4,7 @@ import arrow4 from "./media/download-arrow.svg";
 const ImageItem = ({ image }) => {
   const [visible, setVisible] = useState(false);
 
-  // close function
+  // modal close function
   const close = () => {
     setVisible(false);
   };
