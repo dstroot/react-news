@@ -8,12 +8,35 @@ $theme-colors: (
   // #007cbd meets accessibility contrast ratio,
 );
 
+// then import Bootstrap
+@import "bootstrap";
+
 body {
   padding-top: 75px;
 }
 
-// then import Bootstrap
-@import "bootstrap";
+$nav-tabs-border-color: $gray-600;
+// $nav-tabs-border-width: $border-width;
+$nav-tabs-link-hover-border-color: $gray-300 $gray-300 $nav-tabs-border-color;
+$nav-tabs-link-active-border-color: $gray-600 $gray-600 $nav-tabs-link-active-bg;
+
+.nav-tabs {
+  .nav-link {
+    border-top: $nav-tabs-border-width solid #e9ecef;
+    border-left: $nav-tabs-border-width solid #e9ecef;
+    border-right: $nav-tabs-border-width solid #e9ecef;
+    border-bottom: $nav-tabs-border-width solid transparent;
+    border-style: dotted;
+    @include border-top-radius($nav-tabs-border-radius);
+    @include hover-focus {
+      border-style: solid;
+    }
+  }
+  .nav-link.active,
+  .nav-item.show .nav-link {
+    border-style: solid;
+  }
+}
 
 // then load custom components
 @import "../components/NavBar/styles";

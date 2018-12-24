@@ -3,6 +3,7 @@ import React, { useState } from "react";
 // components
 import NewsList from "../NewsList";
 import ImageList from "../ImageList";
+import ContactPR from "../ContactPR";
 
 // Each tab has a numeric index from zero. The active tab state is
 // held in `activeTab`. When a tab is clicked we update our state
@@ -27,7 +28,7 @@ const Tabs = () => {
             className={`nav-link ${activeTab === 1 && "active"}`}
             onClick={() => setActiveTab(1)}
           >
-            Our Brand
+            Images and Video
           </div>
         </li>
         <li className="nav-item">
@@ -35,15 +36,7 @@ const Tabs = () => {
             className={`nav-link ${activeTab === 2 && "active"}`}
             onClick={() => setActiveTab(2)}
           >
-            Contact Us
-          </div>
-        </li>
-        <li className="nav-item">
-          <div
-            className={`nav-link ${activeTab === 3 && "active"}`}
-            onClick={() => setActiveTab(3)}
-          >
-            About Us
+            Contact PR
           </div>
         </li>
       </ul>
@@ -71,9 +64,7 @@ const RenderTabContent = ({ index }) => {
     case 1:
       return <ImageList />;
     case 2:
-      return <h1>Tab 3</h1>;
-    case 3:
-      return <h1>Tab 4</h1>;
+      return <ContactPR />;
     default:
       return null;
   }

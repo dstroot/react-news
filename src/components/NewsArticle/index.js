@@ -81,7 +81,7 @@ const NewsArticle = () => {
           </address>
           <hr className="m-4" />
           <a className="btn btn-large btn-secondary mb-5" href="/news">
-            Latest Articles
+            Back to Latest Articles
           </a>
         </div>
       </div>

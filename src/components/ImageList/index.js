@@ -17,6 +17,10 @@ const ImageList = () => {
           <ImageItem image={item} key={item.id} />
         ))}
       </div>
+      <p className="small text-muted mt-4">
+        Images on this page may be used for publication with credit: "Source:
+        Pacific Life."
+      </p>
     </div>
   );
 };

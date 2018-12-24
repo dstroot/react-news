@@ -40,10 +40,6 @@ const PageNews = () => {
               .
             </p>
           </address>
-          <p className="small text-muted">
-            Images on this page may be used for publication with credit:
-            "Source: Pacific Life."
-          </p>
         </div>
       </div>
       <div className="row">
