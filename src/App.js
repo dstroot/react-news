@@ -7,7 +7,7 @@ import NavBar from "./components/NavBar";
 
 // pages
 import PageHome from "./pages/PageHome";
-import PageNews from "./pages/PageNews";
+import Tabs from "./pages/PageNews";
 import PageNewsArticle from "./pages/PageNewsArticle";
 
 import "./scss/main.scss";
@@ -18,7 +18,7 @@ const App = () => {
       <NavBar />
       <Router>
         <PageHome path="/" />
-        <PageNews path="/news" />
+        <Tabs path="/news" />
         <PageNewsArticle path="/news/article" />
       </Router>
       <Footer />
