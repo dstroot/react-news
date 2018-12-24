@@ -1,68 +1,16 @@
-import React, { useState } from "react";
+import React from "react";
 
 // components
-import data from "../../components/NewsList/news.json";
-import NewsItem from "../../components/NewsItem";
-import LeadNewsItem from "../../components/LeadNewsItem";
-import PageImages from "../../pages/PageImages";
+import Tabs from "../../components/Tabs";
 
-// https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/shift
-let firstItem = data.shift();
-
-const Tabs = () => {
-  const [activeTab, setActiveTab] = useState(0);
-
-  const handleTabChange = index => {
-    setActiveTab(index);
-  };
-
-  return (
-    <>
-      <ul className="nav nav-tabs nav-fill mb-4">
-        <li className="nav-item">
-          <a
-            className={`nav-link ${activeTab === 0 && "active"}`}
-            onClick={() => setActiveTab(0)}
-          >
-            News Stories
-          </a>
-        </li>
-        <li className="nav-item">
-          <a
-            className={`nav-link ${activeTab === 1 && "active"}`}
-            onClick={() => handleTabChange(1)}
-          >
-            Our Brand
-          </a>
-        </li>
-        <li className="nav-item">
-          <a
-            className={`nav-link ${activeTab === 2 && "active"}`}
-            onClick={() => handleTabChange(2)}
-          >
-            Contact Us
-          </a>
-        </li>
-        <li className="nav-item">
-          <a
-            className={`nav-link ${activeTab === 3 && "active"}`}
-            onClick={() => handleTabChange(3)}
-          >
-            About Us
-          </a>
-        </li>
-      </ul>
-      {
-        {
-          0: <Stuff />,
-          1: <PageImages />,
-          2: <br />,
-          3: <br />
-        }[activeTab]
-      }
-    </>
-  );
-};
+// {
+//   {
+//     0: <NewsList />,
+//     1: <ImageList />,
+//     2: <br />,
+//     3: <br />
+//   }[activeTab]
+// }
 
 const PageNews = () => {
   return (
@@ -106,16 +54,5 @@ const PageNews = () => {
     </div>
   );
 };
-
-const Stuff = () => (
-  <>
-    <LeadNewsItem item={firstItem} />
-    <h1 className="display-6 mb-2 mt-4">All Stories</h1>
-    <hr />
-    {data.map((item, index) => (
-      <NewsItem item={item} index={index} key={index} />
-    ))}
-  </>
-);
 
 export default PageNews;

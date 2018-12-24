@@ -2,9 +2,9 @@ import React from "react";
 
 // components
 import ImageItem from "../../components/ImageItem";
-import data from "../../components/ImageItem/images.json";
+import data from "./images.json";
 
-const PageImages = () => {
+const ImageList = () => {
   return (
     <div className="container mt-3">
       <div className="row">
@@ -21,4 +21,4 @@ const PageImages = () => {
   );
 };
 
-export default PageImages;
+export default ImageList;
