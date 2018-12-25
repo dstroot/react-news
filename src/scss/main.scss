@@ -15,6 +15,10 @@ body {
   padding-top: 75px;
 }
 
+img.link:hover {
+  cursor: pointer;
+}
+
 .nav-tabs {
   .nav-link {
     border-top: $nav-tabs-border-width solid #e9ecef;

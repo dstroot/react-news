@@ -10,6 +10,7 @@ const NewsItem = ({ item }) => (
           className="mr-3 d-none d-sm-block"
           src={item.image || placeholder}
           alt="Generic placeholder"
+          width="520px"
         />
       </div>
       <div className="col">

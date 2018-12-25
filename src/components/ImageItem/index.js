@@ -14,7 +14,7 @@ const ImageItem = ({ image }) => {
       <ImageModal image={image} visible={visible} close={close} />
       <div className="col-sm-4 mt-4">
         <img
-          className="img-fluid"
+          className="img-fluid link"
           src={image.full}
           width="400px"
           height="400px"
@@ -29,7 +29,7 @@ const ImageItem = ({ image }) => {
             aria-label="Download Google"
             download
           >
-            <img className="mr-2" src={arrow4} width="22px" alt="arrow" />
+            <img className="mr-2" src={arrow4} width="18px" alt="arrow" />
           </a>
           {image.title}
         </p>
