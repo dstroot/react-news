@@ -6,7 +6,7 @@ exports[`ImageItem it should render 1`] = `
 >
   <img
     alt="something"
-    className="img-fluid"
+    className="img-fluid link"
     height="400px"
     onClick={[Function]}
     src="/media/wildfire.jpg"
@@ -26,7 +26,7 @@ exports[`ImageItem it should render 1`] = `
         alt="arrow"
         className="mr-2"
         src="download-arrow.svg"
-        width="22px"
+        width="18px"
       />
     </a>
     California Wildfire windy 2018

@@ -11,6 +11,7 @@ exports[`LeadNewsItem it should render 1`] = `
       alt="Generic placeholder"
       className="mr-3 d-none d-sm-block"
       src="logo.png"
+      width="520px"
     />
   </div>
   <div
