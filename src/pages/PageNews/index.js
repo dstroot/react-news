@@ -32,7 +32,7 @@ const PageNews = () => {
             >
               press@pacificlife.com
             </a>
-            <p className="small text-muted">
+            <p className="small text-muted mt-2">
               For all other inquiries please visit our{" "}
               <a className="card-link" href="/help" target="_top">
                 Help Center
