@@ -3,15 +3,6 @@ import React from "react";
 // components
 import Tabs from "../../components/Tabs";
 
-// {
-//   {
-//     0: <NewsList />,
-//     1: <ImageList />,
-//     2: <br />,
-//     3: <br />
-//   }[activeTab]
-// }
-
 const PageNews = () => {
   return (
     <div className="container mt-3">

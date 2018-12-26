@@ -53,18 +53,3 @@ const ContactPR = () => (
 );
 
 export default ContactPR;
-
-//
-// Contact Amazon PR
-// Contact by E-mail:
-// Amazon.com PR
-// Amazon Web Services PR
-//
-// For non-media inquiries:
-// Amazon Customer Service
-//
-// For device brand use inquiries:
-// Device Brand Use Guidelines
-//
-// Receive e-mail alerts:
-// Sign up to receive e-mail alerts whenever Amazon.com Inc posts new information to the press site.
