@@ -1,6 +1,6 @@
 // https://mor10.com/power-of-wordpress-image-metadata/
-
 import React, { useState } from "react";
+import PropTypes from "prop-types";
 import arrow4 from "./media/download-arrow.svg";
 
 const ImageItem = ({ image }) => {
@@ -40,10 +40,6 @@ const ImageItem = ({ image }) => {
   );
 };
 
-var divStyle = {
-  display: "block"
-};
-
 const ImageModal = ({ image, visible, close }) => {
   if (visible) {
     return (
@@ -51,24 +47,21 @@ const ImageModal = ({ image, visible, close }) => {
         <div class="modal-backdrop fade show" />
         <div
           id="exampleModalLive"
-          className="modal fade show"
+          className="modal fade show d-block"
           tabIndex="-1"
           role="dialog"
-          style={divStyle}
         >
           <div className="modal-dialog modal-xl" role="document">
             <div className="modal-content">
-              <div className="modal-header">
+              <div className="modal-body">
                 <button
                   type="button"
-                  className="close"
+                  className="close mb-4"
                   aria-label="Close"
                   onClick={close}
                 >
                   <span aria-hidden="true">&times;</span>
                 </button>
-              </div>
-              <div className="modal-body">
                 <img className="img-fluid" src={image.full} alt={image.alt} />
                 <div className="mt-4">
                   <h4 className="d-inline">{image.title}</h4>
@@ -99,3 +92,14 @@ const ImageModal = ({ image, visible, close }) => {
 };
 
 export default ImageItem;
+
+// define props
+ImageItem.propTypes = {
+  image: PropTypes.object.isRequired
+};
+
+ImageModal.propTypes = {
+  image: PropTypes.object.isRequired,
+  visible: PropTypes.bool.isRequired,
+  close: PropTypes.func.isRequired
+};

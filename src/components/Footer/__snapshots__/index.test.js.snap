@@ -14,7 +14,7 @@ exports[`Footer it should render 1`] = `
         className="col-12 col-md"
       >
         <img
-          alt=""
+          alt="logo"
           className="mb-3"
           src="logo-horiz.svg"
         />
@@ -175,7 +175,7 @@ exports[`Footer it should render 1`] = `
           className="small text-muted"
         >
           Copyright © 
-          2018
+          2019
            Pacific Life Insurance Company, all rights reserved.
         </p>
       </div>

@@ -3,6 +3,7 @@ import React, { useState } from "react";
 // components
 import NewsList from "../NewsList";
 import ImageList from "../ImageList";
+import data from "../ImageList/images.json";
 import ContactPR from "../ContactPR";
 
 // Each tab has a numeric index from zero. The active tab state is
@@ -62,7 +63,7 @@ const RenderTabContent = ({ index }) => {
     case 0:
       return <NewsList />;
     case 1:
-      return <ImageList />;
+      return <ImageList data={data} />;
     case 2:
       return <ContactPR />;
     default:

@@ -65,31 +65,49 @@ exports[`NewsArticle it should render 1`] = `
       <hr
         className="m-4"
       />
-      <h3>
-        Press Contacts
-      </h3>
-      <address
-        className=""
+      <div
+        className="row"
       >
-        <strong>
-          Media Contact
-        </strong>
-        <br />
-        <a
-          className="card-link"
-          href="mailto:media@pacificlife.com?Subject=Media%20Inquiry"
-          target="_top"
+        <div
+          className="col"
         >
-          media@pacificlife.com
-        </a>
-        <br />
-        <a
-          className="card-link"
-          href="tel:+19492194575"
+          <h3>
+            Press Contacts
+          </h3>
+          <address
+            className=""
+          >
+            <strong>
+              Media Contact
+            </strong>
+            <br />
+            <a
+              className="card-link"
+              href="mailto:media@pacificlife.com?Subject=Media%20Inquiry"
+              target="_top"
+            >
+              media@pacificlife.com
+            </a>
+            <br />
+            <a
+              className="card-link"
+              href="tel:+19492194575"
+            >
+              (949) 219-4575
+            </a>
+          </address>
+        </div>
+        <div
+          className="col"
         >
-          (949) 219-4575
-        </a>
-      </address>
+          <img
+            alt="Generic placeholder"
+            height="115px"
+            src="/media/logo.png"
+            width="175px"
+          />
+        </div>
+      </div>
       <hr
         className="m-4"
       />

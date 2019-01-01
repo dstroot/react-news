@@ -1,0 +1,17 @@
+.nav-tabs {
+  .nav-link {
+    border-top: $nav-tabs-border-width solid #e9ecef;
+    border-left: $nav-tabs-border-width solid #e9ecef;
+    border-right: $nav-tabs-border-width solid #e9ecef;
+    border-bottom: $nav-tabs-border-width solid transparent;
+    border-style: dotted;
+    @include border-top-radius($nav-tabs-border-radius);
+    @include hover-focus {
+      border-style: solid;
+    }
+  }
+  .nav-link.active,
+  .nav-item.show .nav-link {
+    border-style: solid;
+  }
+}

@@ -1,7 +1,7 @@
 import React from "react";
+import PropTypes from "prop-types";
 import placeholder from "./media/logo.png";
 
-// https://getbootstrap.com/docs/4.1/layout/media-object/
 const NewsItem = ({ item }) => (
   <>
     <div className="row">
@@ -18,12 +18,7 @@ const NewsItem = ({ item }) => (
           {item.date} / <strong>{item.category}</strong>
         </p>
         <h3 className="news-link font-weight-light">{item.headline}</h3>
-        <p>
-          NEWPORT BEACH, CA – The Pacific Life Foundation announced today a
-          $250,000 donation to the American Red Cross in support of relief
-          efforts for those impacted by the California wildfires. The Foundation
-          also announced plans to match employee donations.
-        </p>
+        <p>{item.lede}</p>
         <a className="btn btn-primary" href="/news/article">
           Read Article
         </a>
@@ -34,5 +29,7 @@ const NewsItem = ({ item }) => (
 
 export default NewsItem;
 
-// width="400px"
-// height="400px"
+// define props
+NewsItem.propTypes = {
+  item: PropTypes.object.isRequired
+};

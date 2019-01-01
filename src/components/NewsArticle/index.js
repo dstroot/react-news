@@ -1,4 +1,4 @@
-import React from "react";
+import React from 'react';
 
 const NewsArticle = () => {
   return (
@@ -41,7 +41,7 @@ const NewsArticle = () => {
             businesses, and pension plans. Pacific Life counts more than half of
             the 100 largest U.S. companies as its clients. For additional
             company information, including current financial strength ratings,
-            visit{" "}
+            visit{' '}
             <a
               className="card-link"
               href="http://www.pacificlife.com/"
@@ -50,7 +50,7 @@ const NewsArticle = () => {
               www.PacificLife.com
             </a>
             . To explore the heritage of Pacific Life and learn more about our
-            history, visit{" "}
+            history, visit{' '}
             <a className="link" href="http://www.pl150years.com" target="_top">
               www.pl150years.com
             </a>
@@ -63,22 +63,37 @@ const NewsArticle = () => {
             500® list.
           </p>
           <hr className="m-4" />
-          <h3>Press Contacts</h3>
-          <address className="">
-            <strong>Media Contact</strong>
-            <br />
-            <a
-              className="card-link"
-              href="mailto:media@pacificlife.com?Subject=Media%20Inquiry"
-              target="_top"
-            >
-              media@pacificlife.com
-            </a>
-            <br />
-            <a className="card-link" href="tel:+19492194575">
-              (949) 219-4575
-            </a>
-          </address>
+
+          <div className="row">
+            <div className="col">
+              <h3>Press Contacts</h3>
+              <address className="">
+                <strong>Media Contact</strong>
+                <br />
+                <a
+                  className="card-link"
+                  href="mailto:media@pacificlife.com?Subject=Media%20Inquiry"
+                  target="_top"
+                >
+                  media@pacificlife.com
+                </a>
+                <br />
+                <a className="card-link" href="tel:+19492194575">
+                  (949) 219-4575
+                </a>
+              </address>
+            </div>
+            <div className="col">
+              <img
+                // className="mr-3 d-none d-sm-block"
+                src="/media/logo.png"
+                alt="Generic placeholder"
+                width="175px"
+                height="115px"
+              />
+            </div>
+          </div>
+
           <hr className="m-4" />
           <a className="btn btn-large btn-secondary mb-5" href="/news">
             Back to Latest Articles

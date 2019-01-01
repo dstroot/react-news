@@ -1,10 +1,10 @@
 import React from "react";
+import PropTypes from "prop-types";
 
 // components
 import ImageItem from "../../components/ImageItem";
-import data from "./images.json";
 
-const ImageList = () => {
+const ImageList = ({ data }) => {
   return (
     <div className="container mt-3">
       <div className="row">
@@ -26,3 +26,8 @@ const ImageList = () => {
 };
 
 export default ImageList;
+
+// define props
+ImageList.propTypes = {
+  data: PropTypes.array.isRequired
+};
