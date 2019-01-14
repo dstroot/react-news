@@ -18,8 +18,6 @@ const ImageItem = ({ image }) => {
         <img
           className="img-fluid link"
           src={image.full}
-          width="400px"
-          height="400px"
           alt={image.alt}
           onClick={() => setVisible(true)}
         />

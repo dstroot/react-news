@@ -12,7 +12,7 @@ const ImageList = ({ data }) => {
           <h1 className="display-6 mb-2 mt-4">All Logos</h1>
         </div>
       </div>
-      <div className="row">
+      <div className="row align-items-end">
         {data.map(item => (
           <ImageItem image={item} key={item.id} />
         ))}

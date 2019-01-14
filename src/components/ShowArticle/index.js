@@ -35,7 +35,9 @@ class ShowArticle extends Component {
           <div className="container">
             <div className="row">
               <div className="col">
-                <h3 className="mt-5">Loading...</h3>
+                <div class="spinner-border text-primary mt-5" role="status">
+                  <span class="sr-only">Loading...</span>
+                </div>
                 <h3 className="mt-5 text-danger">{message}</h3>
               </div>
             </div>

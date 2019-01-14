@@ -48,11 +48,24 @@ class NewsListDB extends React.Component {
     if (news) {
       firstItem = news.shift();
     }
+    const style = {
+      width: "3rem",
+      height: "3rem"
+    };
+
     return (
       <>
         {loading ? (
           <>
-            <h3>Loading...</h3>
+            <div class="d-flex justify-content-center">
+              <div
+                class="spinner-border text-primary mt-5"
+                style={style}
+                role="status"
+              >
+                <span class="sr-only">Loading...</span>
+              </div>
+            </div>
             <p className="text-danger">{message}</p>
           </>
         ) : (
