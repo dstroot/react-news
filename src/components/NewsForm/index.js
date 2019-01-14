@@ -135,7 +135,6 @@ const NewsForm = ({
                 placeholder="Please enter the image URL"
                 value={image}
                 onChange={onChange}
-                required
               />
               <div className="invalid-feedback">Please enter the URL.</div>
               <div className="valid-feedback">Looks good!</div>
