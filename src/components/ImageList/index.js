@@ -9,7 +9,7 @@ const ImageList = ({ data }) => {
     <div className="container mt-3">
       <div className="row">
         <div className="col">
-          <h1 className="display-6 mb-2 mt-4">All Logos</h1>
+          <h1 className="display-6 mb-2 mt-4">Image Library</h1>
         </div>
       </div>
       <div className="row align-items-end">
