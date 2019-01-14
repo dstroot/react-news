@@ -60,7 +60,9 @@ class EditList extends Component {
 
   componentDidMount() {
     // listen for updates
-    this.unsubscribe = this.ref.onSnapshot(this.onCollectionUpdate);
+    this.unsubscribe = this.ref
+      .orderBy("datetime", "desc")
+      .onSnapshot(this.onCollectionUpdate);
   }
 
   componentWillUnmount() {
