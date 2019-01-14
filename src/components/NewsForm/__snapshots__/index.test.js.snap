@@ -203,7 +203,6 @@ Array [
             name="image"
             onChange={[Function]}
             placeholder="Please enter the image URL"
-            required={true}
             type="text"
             value="Image"
           />

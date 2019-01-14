@@ -13,12 +13,12 @@ exports[`ImageList it should render 1`] = `
       <h1
         className="display-6 mb-2 mt-4"
       >
-        All Logos
+        Image Library
       </h1>
     </div>
   </div>
   <div
-    className="row"
+    className="row align-items-end"
   >
     <div
       className="col-sm-4 mt-4"
@@ -26,10 +26,8 @@ exports[`ImageList it should render 1`] = `
       <img
         alt="logo"
         className="img-fluid link"
-        height="400px"
         onClick={[Function]}
         src="/media/logo.png"
-        width="400px"
       />
       <br />
       <p
@@ -55,12 +53,10 @@ exports[`ImageList it should render 1`] = `
       className="col-sm-4 mt-4"
     >
       <img
-        alt="students"
+        alt="whale"
         className="img-fluid link"
-        height="400px"
         onClick={[Function]}
-        src="/media/students.jpeg"
-        width="400px"
+        src="/media/whale1.jpg"
       />
       <br />
       <p
@@ -70,7 +66,7 @@ exports[`ImageList it should render 1`] = `
           aria-label="Download Google"
           className=""
           download={true}
-          href="/media/students.jpeg"
+          href="/media/whale1.jpg"
         >
           <img
             alt="arrow"
@@ -79,19 +75,17 @@ exports[`ImageList it should render 1`] = `
             width="18px"
           />
         </a>
-        Students
+        Whale Breach
       </p>
     </div>
     <div
       className="col-sm-4 mt-4"
     >
       <img
-        alt="awards"
+        alt="whale"
         className="img-fluid link"
-        height="400px"
         onClick={[Function]}
-        src="/media/awards.jpg"
-        width="400px"
+        src="/media/whale2.jpg"
       />
       <br />
       <p
@@ -101,7 +95,7 @@ exports[`ImageList it should render 1`] = `
           aria-label="Download Google"
           className=""
           download={true}
-          href="/media/awards.jpg"
+          href="/media/whale2.jpg"
         >
           <img
             alt="arrow"
@@ -110,7 +104,7 @@ exports[`ImageList it should render 1`] = `
             width="18px"
           />
         </a>
-        Awards
+        Whale Breach Two
       </p>
     </div>
   </div>
