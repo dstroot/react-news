@@ -41,7 +41,7 @@ exports[`Create it should render 1`] = `
                 onChange={[Function]}
                 required={true}
                 type="date"
-                value={2019-01-13T04:33:40.479Z}
+                value={2018-06-27T07:00:00.000Z}
               />
               <div
                 className="invalid-feedback"
@@ -236,9 +236,8 @@ exports[`Create it should render 1`] = `
             className="col-md-5"
           >
             <a
-              aria-current="page"
               className="btn btn-block btn-secondary"
-              href="/"
+              href="/news/edit"
               onClick={[Function]}
             >
               Cancel

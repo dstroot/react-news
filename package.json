@@ -9,6 +9,8 @@
     "@reach/router": "^1.2.1",
     "bootstrap": "^4.2.1",
     "firebase": "^5.7.3",
+    "firebase-mock": "^2.2.10",
+    "jest-date-mock": "^1.0.7",
     "node-sass": "^4.11.0",
     "prop-types": "^15.6.2",
     "react": "^16.7.0-alpha.2",

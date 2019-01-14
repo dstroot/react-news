@@ -228,9 +228,8 @@ Array [
         className="col-md-5"
       >
         <a
-          aria-current="page"
           className="btn btn-block btn-secondary"
-          href="/"
+          href="/news/edit"
           onClick={[Function]}
         >
           Cancel

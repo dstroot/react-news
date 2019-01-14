@@ -123,7 +123,7 @@ class NewsEdit extends Component {
         });
 
         // navigate imperatively
-        navigate("/");
+        navigate("/news/edit");
       })
       .catch(error => {
         this.setState({

@@ -120,6 +120,9 @@ class EditList extends Component {
                 )}
               </tbody>
             </table>
+            <Link to="/news" className="btn btn-secondary">
+              View News
+            </Link>
           </div>
         </div>
       </div>

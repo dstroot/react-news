@@ -21,7 +21,7 @@ exports[`List it should render 1`] = `
     >
       <a
         className="btn btn-primary btn-block mt-3 mb-3"
-        href="/create"
+        href="/news/create"
         onClick={[Function]}
       >
         <i
@@ -66,6 +66,13 @@ exports[`List it should render 1`] = `
           </tr>
         </tbody>
       </table>
+      <a
+        className="btn btn-secondary"
+        href="/news"
+        onClick={[Function]}
+      >
+        View News
+      </a>
     </div>
   </div>
 </div>

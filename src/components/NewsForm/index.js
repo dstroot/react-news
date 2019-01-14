@@ -147,7 +147,7 @@ const NewsForm = ({
         {/* Submit button */}
         <div className="form-row justify-content-between mt-3">
           <div className="col-md-5">
-            <Link to="/" className="btn btn-block btn-secondary">
+            <Link to="/news/edit" className="btn btn-block btn-secondary">
               Cancel
             </Link>
           </div>

@@ -97,7 +97,7 @@ class NewsCreate extends Component {
         });
 
         // navigate imperatively (react router)
-        navigate("/");
+        navigate("/news/edit");
       })
       .catch(error => {
         this.setState({

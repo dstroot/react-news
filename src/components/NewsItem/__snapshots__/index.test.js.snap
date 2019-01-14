@@ -4,7 +4,7 @@ exports[`NewsItem it should render 1`] = `
 Array [
   <a
     className="news-link"
-    href="https://www.pacificlife.com/press-releases/pacific-life-foundation-donates--250-000-to-the-american-red-cro.html"
+    href="/news/undefined"
   >
     <div
       className="media"
@@ -13,7 +13,7 @@ Array [
         alt="Generic placeholder"
         className="mr-3 d-none d-sm-block"
         height="115px"
-        src="logo.png"
+        src="/media/i.jpg"
         width="175px"
       />
       <div
@@ -22,7 +22,7 @@ Array [
         <p
           className="mt-0 text-muted"
         >
-          11-14-18
+          2019-01-08
            / 
           <strong>
             Company News

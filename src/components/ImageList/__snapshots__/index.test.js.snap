@@ -24,11 +24,11 @@ exports[`ImageList it should render 1`] = `
       className="col-sm-4 mt-4"
     >
       <img
-        alt="wildfire"
+        alt="logo"
         className="img-fluid link"
         height="400px"
         onClick={[Function]}
-        src="/media/wildfire.jpg"
+        src="/media/logo.png"
         width="400px"
       />
       <br />
@@ -39,7 +39,7 @@ exports[`ImageList it should render 1`] = `
           aria-label="Download Google"
           className=""
           download={true}
-          href="/media/wildfire.jpg"
+          href="/media/logo.png"
         >
           <img
             alt="arrow"
@@ -48,7 +48,7 @@ exports[`ImageList it should render 1`] = `
             width="18px"
           />
         </a>
-        California Wildfire
+        Pacific Life Logo
       </p>
     </div>
     <div
@@ -59,7 +59,7 @@ exports[`ImageList it should render 1`] = `
         className="img-fluid link"
         height="400px"
         onClick={[Function]}
-        src="/media/students.jpg"
+        src="/media/students.jpeg"
         width="400px"
       />
       <br />
@@ -70,7 +70,7 @@ exports[`ImageList it should render 1`] = `
           aria-label="Download Google"
           className=""
           download={true}
-          href="/media/students.jpg"
+          href="/media/students.jpeg"
         >
           <img
             alt="arrow"
