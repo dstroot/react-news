@@ -1,10 +1,10 @@
 import React from "react";
 import renderer from "react-test-renderer";
-import NewsList from "../NewsList";
+import List from "../List";
 
-describe("NewsList", () => {
+describe("List", () => {
   it("it should render", () => {
-    const component = renderer.create(<NewsList />);
+    const component = renderer.create(<List />);
     let tree = component.toJSON();
     expect(tree).toMatchSnapshot();
   });

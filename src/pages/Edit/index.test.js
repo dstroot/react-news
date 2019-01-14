@@ -1,10 +1,10 @@
 import React from "react";
 import renderer from "react-test-renderer";
-import NewsList from "../NewsList";
+import Edit from "../Edit";
 
-describe("NewsList", () => {
+describe("Edit", () => {
   it("it should render", () => {
-    const component = renderer.create(<NewsList />);
+    const component = renderer.create(<Edit />);
     let tree = component.toJSON();
     expect(tree).toMatchSnapshot();
   });

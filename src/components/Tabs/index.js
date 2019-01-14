@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 
 // components
-import NewsList from "../NewsList";
+import NewsListDB from "../NewsList";
 import ImageList from "../ImageList";
 import data from "../ImageList/images.json";
 import ContactPR from "../ContactPR";
@@ -61,7 +61,7 @@ const Tabs = () => {
 const RenderTabContent = ({ index }) => {
   switch (index) {
     case 0:
-      return <NewsList />;
+      return <NewsListDB />;
     case 1:
       return <ImageList data={data} />;
     case 2:
