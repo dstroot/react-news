@@ -24,6 +24,14 @@ class NewsListDB extends React.Component {
     });
   };
 
+  // can't seem to set state from inside the query
+  // so we do it outside in this function
+  onError = error => {
+    this.setState({
+      message: "Error getting documents: " + error
+    });
+  };
+
   componentDidMount() {
     db.collection("news")
       .where("draft", "==", false)
@@ -31,11 +39,7 @@ class NewsListDB extends React.Component {
       .limit(20)
       .get()
       .then(this.onCollectionUpdate)
-      .catch(function(error) {
-        this.setState({
-          message: "Error getting documents: " + error
-        });
-      });
+      .catch(this.onError);
   }
 
   render() {
@@ -49,7 +53,7 @@ class NewsListDB extends React.Component {
         {loading ? (
           <>
             <h3>Loading...</h3>
-            <h3>{message}</h3>
+            <p className="text-danger">{message}</p>
           </>
         ) : (
           <>
