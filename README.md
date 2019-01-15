@@ -11,3 +11,4 @@ TODO
   - Logo/Image library
   - Story CMS system
   - Why are current contacts individuals? Most companies use a functional contact (e.g. "media" or "publicrelations")
+  - provide easy back button at the bottom to return to the main list
