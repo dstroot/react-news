@@ -1,16 +1,16 @@
 #!/bin/bash
 
-# needs to be unique
-PROJECT=aws-s3-hosting
+# S3 bucket names must be unique
 REGION=us-west-2
+PROJECT=aws-s3-hosting
 BUCKET=$PROJECT-90278
 
-# # deployment step using cloudformation
-# aws cloudformation deploy                     \
-#     --template-file s3hosting.yaml    \
-#     --stack-name $PROJECT                     \
-#     --capabilities CAPABILITY_IAM             \
-#     --parameter-overrides Name=$BUCKET
+# Create bucket using cloudformation
+aws cloudformation deploy                     \
+    --template-file s3hosting.yaml    \
+    --stack-name $PROJECT                     \
+    --capabilities CAPABILITY_IAM             \
+    --parameter-overrides Name=$BUCKET
 
 # setup package.json to deploy
 echo -e "All done! Now add these lines to your package.json"
