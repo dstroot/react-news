@@ -7,6 +7,7 @@ import NavBar from "./components/NavBar";
 
 // pages
 import PageHome from "./pages/PageHome";
+import PageAbout from "./pages/PageAbout";
 import Tabs from "./pages/PageNews";
 import PageNewsArticle from "./pages/PageNewsArticle";
 import ShowArticle from "./components/ShowArticle";
@@ -46,6 +47,7 @@ const App = () => {
       <NavBar />
       <Router>
         <PageHome path="/" />
+        <PageAbout path="/about" />
         <Tabs path="/news" />
         <PageNewsArticle path="/news/article" />
         <ShowArticle path="/news/:id" />
