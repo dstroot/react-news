@@ -10,9 +10,10 @@ aws cloudformation deploy                     \
     --stack-name $PROJECT                     \
     --capabilities CAPABILITY_IAM             \
     --parameter-overrides Name=$BUCKET
-    
-# build website
-yarn build
 
-# upload website files to bucket
-aws s3 sync ../build/ s3://$BUCKET
+# setup package.json to deploy
+echo -e "All done! Now add these lines to your package.json"
+echo -e 'file in the "scripts" section:\n'
+
+echo -e '"predeploy": "yarn build",'
+echo '"deploy": "aws s3 sync build/ s3://'$BUCKET'"'
