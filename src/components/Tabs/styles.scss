@@ -1,17 +1,27 @@
 .nav-tabs {
+  border-bottom: $nav-tabs-border-width solid $nav-tabs-border-color;
+  background-color: $nav-tabs-border-color;
+
+  .nav-item {
+    margin-bottom: -$nav-tabs-border-width;
+  }
+
   .nav-link {
-    border-top: $nav-tabs-border-width solid #e9ecef;
-    border-left: $nav-tabs-border-width solid #e9ecef;
-    border-right: $nav-tabs-border-width solid #e9ecef;
-    border-bottom: $nav-tabs-border-width solid transparent;
-    border-style: dotted;
+    border: $nav-tabs-border-width solid transparent;
+    color: $nav-link-disabled-color;
     @include border-top-radius($nav-tabs-border-radius);
+
     @include hover-focus {
-      border-style: solid;
+      border-color: $nav-tabs-link-hover-border-color;
+      background-color: $nav-tabs-link-active-bg;
     }
   }
+
   .nav-link.active,
   .nav-item.show .nav-link {
-    border-style: solid;
+    color: $nav-tabs-link-active-color;
+    background-color: $nav-tabs-link-active-bg;
+    border-color: $nav-tabs-link-active-border-color;
+    border-top: 2px solid #008ed7;
   }
 }

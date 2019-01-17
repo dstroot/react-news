@@ -37,57 +37,38 @@ const Tabs = () => {
             className={`nav-link ${activeTab === 2 && "active"}`}
             onClick={() => setActiveTab(2)}
           >
-            Contact Us
+            Contact PR
           </div>
         </li>
       </ul>
-      {/*<RenderTabContent index={activeTab} />*/}
-      {
-        {
-          0: <NewsListDB />,
-          1: <ImageList data={data} />,
-          2: <ContactPR />
-        }[activeTab]
-      }
+      <RenderTabContent index={activeTab} />
     </>
   );
 };
 
-// const RenderTabContent = ({ index }) => {
-//   switch (index) {
-//     case 0:
-//       return <NewsListDB />;
-//     case 1:
-//       return <ImageList data={data} />;
-//     case 2:
-//       return <ContactPR />;
-//     default:
-//       return null;
-//   }
-// };
-
 // {
 //   {
-//     0: <Tab1 />,
-//     1: <Tab2 />,
-//     2: <Tab3 />,
+//     0: <NewsList />,
+//     1: <ImageList />,
+//     2: <br />,
+//     3: <br />
 //   }[activeTab]
 // }
 
 // We pass the state to the component and it uses a switch statement to
 // render the appropriate tab content.
 
-// const RenderTabContent = ({ index }) => {
-//   switch (index) {
-//     case 0:
-//       return <Tab1 />;
-//     case 1:
-//       return <Tab2 />;
-//     case 2:
-//       return <Tab3 />;
-//     default:
-//       return null;
-//   }
-// };
+const RenderTabContent = ({ index }) => {
+  switch (index) {
+    case 0:
+      return <NewsListDB />;
+    case 1:
+      return <ImageList data={data} />;
+    case 2:
+      return <ContactPR />;
+    default:
+      return null;
+  }
+};
 
 export default Tabs;
