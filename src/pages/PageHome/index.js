@@ -14,7 +14,7 @@ const PageHome = () => {
       <div className="container">
         <div className="row">
           <div className="col">
-            <h1 className="display-1">Hi There!</h1>
+            <h1 className="display-1 mt-5">Hi There!</h1>
           </div>
         </div>
       </div>
