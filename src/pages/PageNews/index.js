@@ -1,9 +1,12 @@
-import React from "react";
-
-// components
+import React, { useEffect } from "react";
 import Tabs from "../../components/Tabs";
 
 const PageNews = () => {
+  useEffect(() => {
+    document.title = `Pacific Life • News`;
+    window.scrollTo(0, 0);
+  });
+
   return (
     <div className="container mt-3">
       <div className="row justify-content-between">

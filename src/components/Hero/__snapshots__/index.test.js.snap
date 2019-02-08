@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`HeroWash renders some content 1`] = `
+exports[`Hero renders some content 1`] = `
 <div
   style={
     Object {
@@ -9,6 +9,7 @@ exports[`HeroWash renders some content 1`] = `
       "backgroundRepeat": "no-repeat",
       "backgroundSize": "cover",
       "height": "40vw",
+      "minHeight": "325px",
       "position": "relative",
     }
   }
@@ -24,6 +25,11 @@ exports[`HeroWash renders some content 1`] = `
       }
     }
   >
+    <img
+      alt="hero"
+      className="d-block-inline"
+      src=""
+    />
     <p
       style={
         Object {

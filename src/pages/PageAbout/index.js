@@ -1,17 +1,13 @@
-import React from "react";
+import React, { useEffect } from "react";
+import About from "../../components/About";
 
 const PageHome = () => {
-  return (
-    <>
-      <div className="container mt-5">
-        <div className="row">
-          <div className="col">
-            <h1 className="display-1">About Us!</h1>
-          </div>
-        </div>
-      </div>
-    </>
-  );
+  useEffect(() => {
+    document.title = `Pacific Life • About`;
+    window.scrollTo(0, 0);
+  });
+
+  return <About />;
 };
 
 export default PageHome;
