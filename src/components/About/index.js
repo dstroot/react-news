@@ -1,8 +1,12 @@
 import React from "react";
-import CountUp from "react-countup";
 
+// import components
+import CountUp from "react-countup";
 import business from "./media/business_people.jpg";
 import responsibility from "./media/corp_resp.jpg";
+
+// styles
+import "./styles.scss";
 
 const About = () => {
   return (
