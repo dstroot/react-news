@@ -28,7 +28,8 @@ var mocksdk = new firebasemock.MockFirebaseSdk(
   }
 );
 
-jest.mock("../../firebase", () => {
+jest.mock("../../Firebase.js", () => {
+  // return mockfirestore;
   return mocksdk;
 });
 
