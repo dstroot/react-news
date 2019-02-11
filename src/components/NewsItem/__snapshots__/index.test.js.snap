@@ -28,11 +28,17 @@ Array [
             Company News
           </strong>
         </p>
-        <h3
-          className="news-link font-weight-light"
+        <p
+          style={
+            Object {
+              "fontSize": "calc(14px + 1vw)",
+              "fontWeight": "300",
+              "lineHeight": "1.2",
+            }
+          }
         >
           Pacific Life Foundation Donates $250,000 to the American Red Cross for Victims of the California Wildfires
-        </h3>
+        </p>
       </div>
     </div>
   </a>,
