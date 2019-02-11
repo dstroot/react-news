@@ -1,12 +1,14 @@
 import React from "react";
+import PropTypes from "prop-types";
 
-const HeroWash = ({ image, tagline, line1, line2 }) => {
+const Hero = ({ logo, bgimage, tagline, line1, line2 }) => {
   const divHero = {
     /* Image with a color wash */
-    backgroundImage: `linear-gradient(to top, rgba(0, 142, 215, 0.9), rgba(0, 142, 215, 0.4)), url(${image})`,
+    backgroundImage: `linear-gradient(to top, rgba(0, 142, 215, 0.9), rgba(0, 142, 215, 0.4)), url(${bgimage})`,
 
     /* Set height relative to width */
     height: "40vw",
+    minHeight: "325px",
 
     /* Position and center the image to scale nicely on all screens */
     backgroundPosition: "center",
@@ -40,6 +42,7 @@ const HeroWash = ({ image, tagline, line1, line2 }) => {
   return (
     <div style={divHero}>
       <div style={heroText}>
+        <img className="d-block-inline" src={logo} alt="hero" />
         <p style={textBig}>{tagline}</p>
         <p style={textSmall}>{line1}</p>
         <p style={textSmall}>{line2}</p>
@@ -48,4 +51,18 @@ const HeroWash = ({ image, tagline, line1, line2 }) => {
   );
 };
 
-export default HeroWash;
+// note the comments are used for storybook.
+Hero.propTypes = {
+  /** string representing a URL for the background image */
+  bgimage: PropTypes.string.isRequired,
+  /** Additional line 1 */
+  line1: PropTypes.string,
+  /** Additional line 2 */
+  line2: PropTypes.string,
+  /** string representing a URL for the logo */
+  logo: PropTypes.string.isRequired,
+  /** string for the tagline */
+  tagline: PropTypes.string.isRequired
+};
+
+export default Hero;
