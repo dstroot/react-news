@@ -8,9 +8,9 @@ const NewsItem = ({ item }) => {
   return (
     <>
       <div className="row">
-        <div className="col">
+        <div className="col d-none d-sm-block">
           <img
-            className="mr-3 d-none d-sm-block"
+            className="mr-3"
             src={image || placeholder}
             alt="Generic placeholder"
             width="520px"

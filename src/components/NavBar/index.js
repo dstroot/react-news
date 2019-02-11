@@ -13,7 +13,7 @@ const isActive = ({ isCurrent }) => {
 // Useful for styling the anchor as active.
 const ExactNavLink = props => <Link getProps={isActive} {...props} />;
 
-class NavBar extends React.PureComponent {
+class NavBar extends React.Component {
   buttonRef = React.createRef();
   state = {
     isHidden: true

@@ -5,11 +5,11 @@ exports[`LeadNewsItem it should render 1`] = `
   className="row"
 >
   <div
-    className="col"
+    className="col d-none d-sm-block"
   >
     <img
       alt="Generic placeholder"
-      className="mr-3 d-none d-sm-block"
+      className="mr-3"
       src="/media/i.jpg"
       width="520px"
     />

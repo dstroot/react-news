@@ -12,7 +12,7 @@ Array [
         className="nav-link active"
         onClick={[Function]}
       >
-        Tab 1
+        News Stories
       </div>
     </li>
     <li
@@ -22,7 +22,7 @@ Array [
         className="nav-link false"
         onClick={[Function]}
       >
-        Tab 2
+        Images and Video
       </div>
     </li>
     <li
@@ -32,14 +32,34 @@ Array [
         className="nav-link false"
         onClick={[Function]}
       >
-        Tab 3
+        Contact Us
       </div>
     </li>
   </ul>,
-  <h1
-    className="display-2"
+  <div
+    class="d-flex justify-content-center"
   >
-    Tab 1
-  </h1>,
+    <div
+      class="spinner-border text-primary mt-5"
+      role="status"
+      style={
+        Object {
+          "height": "3rem",
+          "width": "3rem",
+        }
+      }
+    >
+      <span
+        class="sr-only"
+      >
+        Loading...
+      </span>
+    </div>
+  </div>,
+  <p
+    className="text-danger"
+  >
+    
+  </p>,
 ]
 `;

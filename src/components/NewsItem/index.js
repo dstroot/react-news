@@ -4,6 +4,12 @@ import placeholder from "./media/logo.png";
 const NewsItem = ({ item }) => {
   const { datetime, image, headline, category } = item.data;
 
+  const textStyle = {
+    fontSize: `calc(14px + 1vw)`,
+    lineHeight: "1.2",
+    fontWeight: "300"
+  };
+
   return (
     <>
       <a className="news-link" href={`/news/${item.id}`}>
@@ -19,7 +25,7 @@ const NewsItem = ({ item }) => {
             <p className="mt-0 text-muted">
               {datetime} / <strong>{category}</strong>
             </p>
-            <h3 className="news-link font-weight-light">{headline}</h3>
+            <p style={textStyle}>{headline}</p>
           </div>
         </div>
       </a>

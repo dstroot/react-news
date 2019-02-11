@@ -5,4 +5,11 @@ import { storiesOf } from "@storybook/react";
 import NewsList from "../NewsList";
 
 // NewsList section
-storiesOf("NewsList", module).add("show NewsList", () => <NewsList />);
+storiesOf("NewsList", module)
+  .addParameters({
+    info: {
+      inline: true,
+      header: false
+    }
+  })
+  .add("show NewsList", () => <NewsList />);
